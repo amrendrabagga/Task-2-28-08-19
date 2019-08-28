@@ -6,6 +6,7 @@ public class Machine {
 	
 	public void insertCARD(CARD card) {
 		this.card = card;
+		System.out.println("CARD ACCEPTED");
 	}
 	
 	public void withdraw() {
