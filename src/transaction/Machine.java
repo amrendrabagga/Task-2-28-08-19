@@ -3,14 +3,14 @@ package transaction;
 public class Machine {
 
 	CARD card;
-	
+
 	public void insertCARD(CARD card) {
 		this.card = card;
 		System.out.println("CARD ACCEPTED");
 	}
 	
 	public void withdraw() {
-		card.withdraw();
+		card.withdrawAmount();
 	}
 	
 	public void cardExpicy() {
