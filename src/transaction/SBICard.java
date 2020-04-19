@@ -10,7 +10,7 @@ public class SBICard implements CARD {
 	}
 
 	@Override
-	public void withdraw() {
+	public void withdrawAmount() {
 		System.out.println("CASH WITHDRAWN FROM SBI CARD SUCCESSFULLY");
 	}
 
